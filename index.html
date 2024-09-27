@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Cidade Perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você é um explorador, e depois de anos seguindo pistas e rumores, finalmente encontra o caminho para a lendária Cidade Perdida de Azarath, um local oculto no meio da densa selva, coberto por mistérios e guardado por forças desconhecidas. Seu objetivo é encontrar o Cetro do Tempo, um artefato poderoso que dizem conceder a capacidade de controlar o passado e o futuro.
+
+Ao chegar à entrada da cidade, você se depara com duas rotas. O mapa que você trouxe não tem essa parte, então, agora, suas escolhas determinarão o que vem a seguir.
+Os caminhos iniciais
+
+</p>
+            <button class="btn-proximo" data-proximo="1">O Caminho da Sabedoria: Uma trilha feita de pedras brancas e símbolos antigos gravados no chão. Há estátuas de sábios e guerreiros em cada lado, parecendo observar cada passo que você dá. Este caminho aparenta ser o mais seguro, mas há algo desconcertante na tranquilidade dele.</button>
+            <button class="btn-proximo" data-proximo="2">O Caminho das Sombras: Um caminho estreito que serpenteia através de uma floresta escura e densa. Os galhos das árvores parecem se mexer por conta própria, e você escuta sons estranhos vindos de dentro da mata. Uma placa caída adverte sobre “perigos invisíveis” à frente.</button>
+        </div>
+        <div class="passo" id="passo-1"> 1A: O Caminho da Sabedoria. 
+
+            <p>.</p>Você segue o caminho de pedras brancas, e à medida que caminha, as estátuas ao seu redor parecem ganhar vida. Primeiro, é só uma impressão, mas, logo, você percebe que elas se movem e mudam de posição, como se estivessem te observando de verdade.
+
+            No fim da trilha, uma grande porta de pedra se ergue à sua frente. Está trancada, e há três símbolos no chão: fogo, água, e terra.
+            <button class="btn-proximo" data-proximo="3">Toque o símbolo do fogo</button>
+            <button class="btn-proximo" data-proximo="4">Toque o símbolo da água</button>
+            <button class="btn-proximo" data-proximo="5">Toque o símbolo da terra</button>
+        </div>
+        <div class="passo" id="passo-2"> Escolha 1B: O Caminho das Sombras. 
+            <p> Você escolhe o caminho mais perigoso. O ar fica mais denso, e logo, percebe olhos brilhando na escuridão entre as árvores. Criaturas de olhos amarelos se movem nas sombras, mas elas não atacam... ainda.
+
+                Logo à frente, há uma bifurcação. À esquerda, você vê uma luz fraca, como uma tocha acesa no meio da floresta. À direita, ouve-se o som de água corrente, o que pode ser um riacho escondido pela vegetação</p>
+            <button class="btn-proximo" data-proximo="5">Siga a luz da tocha</button>
+            <button class="btn-proximo" data-proximo="6">Siga o som da água</button>
+        </div>
+        <div class="passo" id="passo-3"> Escolha 2A: O Símbolo do Fogo
+            <p>Quando você toca o símbolo do fogo, a porta se abre com um rugido alto. Ao entrar, a temperatura aumenta, e você está em uma sala cheia de lava borbulhante. O cetro que você procura está em uma plataforma no centro, mas o único caminho até ele é uma série de pedras flutuantes..</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
